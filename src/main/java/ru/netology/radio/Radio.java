@@ -5,15 +5,15 @@ public class Radio {
 
     public int currentStation;
     public int currentVolume;
-public int quantityStation;
+    public int quantityStation;
 
-  public Radio() {
-  this.quantityStation = 20;
-  }
+    public Radio() {
+        this.quantityStation = 20;
+    }
 
-  public Radio(int quantityStation) {
-      this.quantityStation = quantityStation;
-  }
+    public Radio(int quantityStation) {
+        this.quantityStation = quantityStation;
+    }
 
     public void next() {
         if (currentStation < quantityStation - 1) {
